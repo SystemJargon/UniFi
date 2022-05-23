@@ -13,3 +13,7 @@ https://support.hostifi.com/en/articles/3561377-how-to-use-rsync-for-copying-uni
 https://www.reddit.com/r/Ubiquiti/comments/kx6sig/sshfs_or_rsync_on_udmpro/
 
 https://community.ui.com/questions/Rsync-for-my-autobackup-files/3ae55c15-d855-4d53-8c45-4fc056111a2c
+
+----
+
+[Example simple script](backup-to-server.sh)
