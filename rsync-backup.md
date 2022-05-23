@@ -16,4 +16,4 @@ https://community.ui.com/questions/Rsync-for-my-autobackup-files/3ae55c15-d855-4
 
 ----
 
-[Example simple script](backup-to-server.sh)
+[Example simple script](https://github.com/lz-eng/unifi-udm-udr/blob/main/scripts/backup-to-server.sh)
