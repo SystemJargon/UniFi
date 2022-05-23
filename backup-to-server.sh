@@ -12,3 +12,5 @@ unifi-os shell
 cd ~
 
 rsync -av /data/unifi/data/backup/autobackup/*.unf username@servername:unifi-backup/
+
+Refer to [rsync-backup.md](rsync-backup.md)
