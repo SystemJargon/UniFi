@@ -11,3 +11,5 @@ Packet Capture - [Read this on Reddit](https://www.reddit.com/r/Ubiquiti/comment
 [UDM Source Code - Credit @tusc](https://github.com/tusc/UDM-source-code)
 
 [UDM and Wireguard-kmod - Credit @tusc](https://github.com/tusc/wireguard-kmod)
+
+[How to Downgrade apps like Protect in Unifi OS](how-to-downgrade-apps.md)
