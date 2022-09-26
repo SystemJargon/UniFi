@@ -1,5 +1,7 @@
 ## Unifi Dream Machine / Router (Pro/Pro SE).
 
+[my unifi usg repo here](https://github.com/SystemJargon/unifi-usg)
+
 Packet Capture - [Read this on Reddit](https://www.reddit.com/r/Ubiquiti/comments/ho19aw/capturing_udm_pro_wan_traffic_directly_into/)
 
 [Backups via rsync](rsync-backup.md)
