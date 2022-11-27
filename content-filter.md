@@ -29,9 +29,9 @@ Address: 185.228.168.168
 
 CleanBrowsing describes this filter as:
 
-```
+<i>
 Blocks access to all adult, pornographic and explicit sites. It also blocks proxy and VPN domains that are used to bypass the filters. Mixed content sites (like Reddit) are also blocked. Google, Bing and Youtube are set to the Safe Mode. Malicious and Phishing domains are blocked.
-```
+</i>
 
 ----
 
@@ -46,6 +46,6 @@ Address: 185.228.168.10
 
 CleanBrowsing describes	this filter as:
 
-```
+<i>
 Blocks access to all adult, pornographic and explicit sites. It does not block proxy or VPNs, nor mixed-content sites. Sites like Reddit are allowed. Google and Bing are set to the Safe Mode. Malicious and Phishing domains are blocked.
-```
+</i>
