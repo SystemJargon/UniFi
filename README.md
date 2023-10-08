@@ -6,6 +6,10 @@ Packet Capture - [Read this on Reddit](https://www.reddit.com/r/Ubiquiti/comment
 
 [Backups via rsync](rsync-backup.md)
 
+[Firewall Config and Groups for Casting across VLANs](unifi-casting-firewall-rules.md)
+
+Where is logging of the firewall rules / how-to read firewall logs in console, SSH and ````tail -f -n 1 /var/log/ulog/syslogemu.log```` (change -n 1 to your own syntax as required)
+
 ### Other Repo's
 
 [Split-VPN - Credit @Peacey](https://github.com/peacey/split-vpn)
