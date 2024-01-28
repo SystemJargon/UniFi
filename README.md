@@ -10,7 +10,9 @@ Packet Capture - [Read this on Reddit](https://www.reddit.com/r/Ubiquiti/comment
 
 Where is logging of the firewall rules / how-to read firewall logs in console, SSH and ````tail -f -n 1 /var/log/ulog/syslogemu.log```` (change -n 1 to your own syntax as required)
 
-### Other Repo's
+### Other Repo's / Useful Links
+
+[UniFi Utilities](https://github.com/unifi-utilities)
 
 [Split-VPN - Credit @Peacey](https://github.com/peacey/split-vpn)
 
