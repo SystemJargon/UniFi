@@ -1,4 +1,4 @@
-## UniFi
+# UniFi
 
 My repo for [UniFi](https://www.ui.com/). Others may find some usefulness from it also.
 
@@ -6,7 +6,7 @@ This should work on the UDM-PRO (Unifi Dream Machine Pro), the UDR (Unifi Dream 
 
 ----
 
-### Links
+## Links
 
 [Backups via rsync info](rsync-backup.md)
 
@@ -22,9 +22,9 @@ This should work on the UDM-PRO (Unifi Dream Machine Pro), the UDR (Unifi Dream 
 
 ----
 
-### CLI Syntax
+## CLI Syntax
 
-# Firewall
+### Firewall
 
 <b> Firewall Logs via SSH? </b>
 
@@ -68,7 +68,7 @@ Example of redirecting Google DNS destination traffic to your own DNS server at 
 
 ----
 
-# Storage and Paths
+### Storage and Paths
 
 <b> Hard Disk Filling Up Quickly on the UDM-PRO? (Unifi Protect) </b>
 
