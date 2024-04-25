@@ -14,19 +14,40 @@
 
 ----
 
+<b>DNAT rule to redirect traffic using iptables </b>
+
+Syntax using iptables
+
+```iptables -t nat -A PREROUTING -i br<VLANID> -s x.x.x.x/xx -d 0.0.0.0/0 -p udp --dport yy -j DNAT --to z.z.z.z```
+
+Example of redirecting Google DNS destination traffic to your own DNS server at 192.168.10.10 for VLAN20.
+
+```iptables -t nat -A PREROUTING -i br20 -s 192.168.20.0/24 -d 8.8.8.8/32 -p udp --dport 53 -j DNAT --to 192.168.10.10```
+
+```iptables -t nat -A PREROUTING -i br20 -s 192.168.20.0/24 -d 8.8.4.4/32 -p udp --dport 53 -j DNAT --to 192.168.10.10```
+
+
+<b>To see the chain and rules with numbering (line simple layout) </b>
+
+```` iptables -t nat -L PREROUTING --line ````
+
+<b>To delete a rule in the chain </b>
+
+````iptables -t nat -D PREROUTING <X>````
+
+```<X>``` indicates the number of the rule in the chain to delete
+
+----
+
 <b> Hard Disk Filling Up Quickly on the UDM-PRO? (Unifi Protect) </b>
 
 Find the largest 20 files in /volume1
 
-```
-du -a /volume1 | sort -n -r | head -n 20
-```
+```` du -a /volume1 | sort -n -r | head -n 20 ````
 
 You may need to remove 1GB UBV files in /pool directory
 
-```
-rm /volume1/.srv/unifi-protect/video/pool/*.ubv
-```
+```` rm /volume1/.srv/unifi-protect/video/pool/*.ubv ````
 
 ----
 
