@@ -1,16 +1,45 @@
-## Unifi Dream Machine / Router (Pro/Pro SE).
+## UniFi
 
-[Backups via rsync](rsync-backup.md)
+My repo for [UniFi](https://www.ui.com/). Others may find some usefulness from it also.
+
+This should work on the UDM-PRO (Unifi Dream Machine Pro), the UDR (Unifi Dream Router) and maybe other Unifi OS products.
+
+----
+
+### Links
+
+[Backups via rsync info](rsync-backup.md)
+
+[Scripts](/scripts/)
 
 [Firewall Config and Groups for Casting across VLANs](unifi-casting-firewall-rules.md)
 
+[How to Downgrade apps like Protect in Unifi OS](how-to-downgrade-apps.md)
+
+[Content Filter](content-filter.md)
+
+[Content Filter - AdBlocking](content-filtering-ad-blocking.md)
+
 ----
+
+### CLI Syntax
+
+# Firewall
 
 <b> Firewall Logs via SSH? </b>
 
 ```tail -f -n 1 /var/log/ulog/syslogemu.log```
 
-(change -n 1 to your own syntax as required)
+(change -n 1 to your own syntax as required to read th number of line in tail) 
+
+
+If you were logging Deny rules you've created for want to see all Denys in the firewall log, try this instead.
+
+```tail -f -n 1 /var/log/ulog/syslogemu.log | grep Deny``` 
+
+or
+
+```cat /var/log/ulog/syslogemu.log | grep Deny```
 
 ----
 
@@ -39,6 +68,8 @@ Example of redirecting Google DNS destination traffic to your own DNS server at 
 
 ----
 
+# Storage and Paths
+
 <b> Hard Disk Filling Up Quickly on the UDM-PRO? (Unifi Protect) </b>
 
 Find the largest 20 files in /volume1
@@ -48,6 +79,14 @@ Find the largest 20 files in /volume1
 You may need to remove 1GB UBV files in /pool directory
 
 ```` rm /volume1/.srv/unifi-protect/video/pool/*.ubv ````
+
+<b> Paths </b>
+
+Recordings
+```du -hs /volume1/.srv/unifi-protect/video/```
+
+Data
+```du -hs /data```
 
 ----
 
@@ -65,4 +104,4 @@ Packet Capture - [Read this on Reddit](https://www.reddit.com/r/Ubiquiti/comment
 
 [UDM and Wireguard-kmod - Credit @tusc](https://github.com/tusc/wireguard-kmod)
 
-[How to Downgrade apps like Protect in Unifi OS](how-to-downgrade-apps.md)
+
