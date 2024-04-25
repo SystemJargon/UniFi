@@ -24,9 +24,27 @@ This should work on the UDM-PRO (Unifi Dream Machine Pro), the UDR (Unifi Dream 
 
 ## CLI Syntax
 
+### Interface Basics
+
+```ip help``` ( Shows your the commands for IP)
+
+```ip addr sh``` # To see interface address information
+
+```ip route sh``` # To see routing information.
+
+```route``` # An alternate way of seeing routes
+
+```wg show``` Shows the WireGuard current configuration and device information. This can be used for Teleport also.
+
+```wg showconf tlprt0``` Show the configuration for example, Teleport0 inteface (the default interface if you add Teleport VPN).
+
+```wg help``` - List Commands for Help
+
+----
+
 ### Firewall
 
-<b> Firewall Logs via SSH? </b>
+<b> Firewall Logs </b>
 
 ```tail -f -n 1 /var/log/ulog/syslogemu.log```
 
