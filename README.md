@@ -20,6 +20,8 @@ This should work on the UDM-PRO (Unifi Dream Machine Pro), the UDR (Unifi Dream 
 
 [Content Filter - AdBlocking](content-filtering-ad-blocking.md)
 
+[Network Ports](ports.md)
+
 ----
 
 ## CLI Syntax
