@@ -34,6 +34,10 @@ UniFi Protect (Server for cameras, so SRC would be Camera IPs)
 
 It is not recommended to "port forward (expose)" directly to the internet, use a VPN like wireguard, teleport or similar.
 
+The destination firewall rules should be, DST IP of your UDM-PRO, SRC your camera/client. These would be "LAN_LOCAL" rules.
+
+The only exception is LAN_IN if your want your computer to reach the camera directly (not via the UDM PRO).
+
 These ports have been discovered by trial and error and looking online in various places, i.e. Reddit, Ubiquiti Community forums.
 
 There maybe others ports also, but these would be essential ports. Ubiquiti may change some of these ports from time to time.
